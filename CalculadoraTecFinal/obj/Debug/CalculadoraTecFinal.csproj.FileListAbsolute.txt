@@ -1,0 +1,2 @@
+C:\Users\CICEM\source\repos\CalculadoraTecFinal\CalculadoraTecFinal\obj\Debug\CalculadoraTecFinal.csproj.AssemblyReference.cache
+C:\Users\CICEM\source\repos\CalculadoraTecFinal\CalculadoraTecFinal\obj\Debug\CalculadoraTecFinal.csproj.CoreCompileInputs.cache
