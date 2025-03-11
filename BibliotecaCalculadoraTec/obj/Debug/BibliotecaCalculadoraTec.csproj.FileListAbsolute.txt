@@ -1,0 +1,6 @@
+C:\Users\CICEM\source\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalculadoraTec\bin\Debug\BibliotecaCalculadoraTec.dll
+C:\Users\CICEM\source\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalculadoraTec\bin\Debug\BibliotecaCalculadoraTec.pdb
+C:\Users\CICEM\source\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.csproj.AssemblyReference.cache
+C:\Users\CICEM\source\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.csproj.CoreCompileInputs.cache
+C:\Users\CICEM\source\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.dll
+C:\Users\CICEM\source\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.pdb
