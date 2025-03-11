@@ -1,4 +1,4 @@
-﻿using System; // puedo ingresar datos desde teclado 
+﻿using System; // Ingresa datos por teclado
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;    // Permite mostrar mensajes en pantalla
