@@ -52,9 +52,15 @@ namespace BibliotecaCalculadoraTec
             }
 
             public static double potencia(double baseNum, double exponente)
-            {
-                return Math.Pow(baseNum, exponente); // Retorna el resultado de elevar baseNum a exponente
-            }
+        { // Caso base: cualquier número elevado a la potencia 0 es 1
+            if (exponente == 0) return 1;
+
+            // Si el exponente es negativo, convertimos el problema en una potencia positiva y luego invertimos el resultado
+            if (exponente < 0) return 1 / potencia(baseNum, -exponente);
+
+            // Llamada recursiva: multiplicamos la base por la potencia de baseNum con un exponente reducido en 1
+            return baseNum * potencia(baseNum, exponente - 1); 
+        }
 
 
             public static double porcentaje(double total, double porcentaje)
