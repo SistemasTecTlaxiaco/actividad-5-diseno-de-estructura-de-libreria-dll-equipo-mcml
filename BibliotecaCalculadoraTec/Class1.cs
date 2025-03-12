@@ -63,12 +63,14 @@ namespace BibliotecaCalculadoraTec
         }
 
 
-            public static double porcentaje(double total, double porcentaje)
-            {
-                return (total * porcentaje) / 100; // Retorna el porcentaje del total
-            }
+        public static double porcentaje(double total, double porcentaje)
+        {
+            // Calcula el porcentaje de un total dado
+            double resultado = (total * porcentaje) / 100; // Multiplica el total por el porcentaje y divide entre 100
+            return resultado; // Retorna el resultado obtenido
+        }
 
-            public static double fraccion(double numero)
+        public static double fraccion(double numero)
             {
                 if (numero == 0) // Verifica si el número es cero
                 {
