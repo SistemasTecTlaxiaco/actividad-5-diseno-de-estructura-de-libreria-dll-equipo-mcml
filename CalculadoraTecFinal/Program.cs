@@ -47,11 +47,11 @@ namespace CalculadoraTecFinal
                             case 3: // Multiplicar dos números
                                 teclado1();
                                 Console.WriteLine("El resultado de la Multiplicacion es: " + Class1.multiplicar(num1, num2));
-                                break;
-                            case 4: // Dividir dos números
+                                break; //Llama a teclado1(), muestra el resultado de la multiplicacion y finaliza la ejecución del caso con break
+                        case 4: // Dividir dos números
                                 teclado1();
                                 Console.WriteLine("El resultado de la Division es: " + Class1.dividir(num1, num2));
-                                break;
+                                break; // Llama a teclado1(), muestra el resultado de la division y finaliza la ejecucion del caso con break
                             case 5: // Calcular la raíz cuadrada de un número
                                 teclado0();
                                 Console.WriteLine("El resultado de la Raiz cuadrada es: " + Class1.raizCuadrada(num0)); // devuelve un numero 
