@@ -65,12 +65,13 @@ namespace CalculadoraTecFinal
                                 teclado1();
                                 Console.WriteLine("El resultado del porcentaje es: " + Class1.porcentaje(num1, num2));
                                 break;
-                            case 8: // Calcular la fracción de un número
-                                teclado0();
-                                Console.WriteLine("El resultado de la fraccion es: " + Class1.fraccion(num0));
-                                // pase de parametro
-                                break;
-                            case 9: // Salir de la aplicación
+                            case 8: // Caso 8 en una estructura 
+                            teclado0(); // Llama a la función teclado0() para ingresar un 
+                            Console.WriteLine("El resultado de la fracción es: " + Class1.fraccion(num0));
+                            // Llama al método fraccion de la clase Class1, pasando num0 como parámetro
+                            // Muestra el resultado de la fracción en la 
+                            break; // Finaliza la ejecución de este caso en el 
+                        case 9: // Salir de la aplicación
                                 Console.WriteLine("Has elegido salir de la aplicación");
                                 Environment.Exit(1);
                                 salir = true;
