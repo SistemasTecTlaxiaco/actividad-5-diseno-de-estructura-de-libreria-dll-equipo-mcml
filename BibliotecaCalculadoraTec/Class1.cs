@@ -23,25 +23,20 @@ namespace BibliotecaCalculadoraTec
               {
                 return uno * dos;//retorna el producto de los dos numeros
              }
-            public static double dividir(double uno, double dos)
+        public static double dividir(double uno, double dos)
+        {
+            try
             {
-                try
-                {
-                    if (dos != 0) // negando que el numero dos sea igual a cero
-                    {
-                        throw new ArithmeticException("No se puede dividir por cero."); // Lanza una excepción
-                    }
-                    return uno / dos; // Retorna la división
-                }
-                catch (ArithmeticException e)
-                {
-                    Console.WriteLine("Error: " + e.Message); // Muestra un mensaje de error en la consola
-                    return Double.NaN; // Retorna NaN (Not a Number)
-                }
+                return uno / dos; // Intenta realizar la división
             }
+            catch (Exception e) // Captura cualquier tipo de excepción
+            {
+                Console.WriteLine("Error: " + e.Message); // Muestra el mensaje de error en consola
+                return double.NaN; // Retorna NaN (Not a Number) si ocurre cualquier error
+            }
+        }
 
-
-            public static double raizCuadrada(double num)
+        public static double raizCuadrada(double num)
             {
                 if (num < 0) // Verifica si el número es negativo
                 {
@@ -56,7 +51,7 @@ namespace BibliotecaCalculadoraTec
             if (exponente == 0) return 1;
 
             // Si el exponente es negativo, convertimos el problema en una potencia positiva y luego invertimos el resultado
-            if (exponente < 0) return 1 / potencia(baseNum, -exponente);
+            if (exponente < 0) return 1 / pot2encia(baseNum, -exponente);
 
             // Llamada recursiva: multiplicamos la base por la potencia de baseNum con un exponente reducido en 1
             return baseNum * potencia(baseNum, exponente - 1); 
