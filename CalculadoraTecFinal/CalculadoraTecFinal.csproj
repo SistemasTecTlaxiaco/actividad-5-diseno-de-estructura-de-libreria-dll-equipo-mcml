@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BibliotecaCalculadoraTec">
-      <HintPath>..\..\..\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalculadoraTec\bin\Debug\BibliotecaCalculadoraTec.dll</HintPath>
+      <HintPath>..\BibliotecaCalculadoraTec\bin\Debug\BibliotecaCalculadoraTec.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
