@@ -65,15 +65,15 @@ namespace BibliotecaCalculadoraTec
             return resultado; // Retorna el resultado obtenido
         }
 
-        public static double fraccion(double numero)
+        public static double fraccion(double numero)  // Define un método estático que recibe un número de tipo double y devuelve un double
+        {
+                if (numero == 0) // Verifica si el número ingresado es igual a cero
             {
-                if (numero == 0) // Verifica si el número es cero
-                {
-                    Console.WriteLine("Error: No se puede calcular la fracción de cero."); // Mensaje de error
-                    return Double.NaN; // Retorna NaN
-                }
-                return 1 / numero; // Retorna la fracción del número
+                    Console.WriteLine("Error: No se puede calcular la fracción de cero."); // Muestra un mensaje de error en la consola
+                return Double.NaN; // Retorna NaN (Not a Number) para indicar que el cálculo no es válido
             }
+                return 1 / numero; // Si el número no es cero, retorna su fracción (1 dividido por el número)
+        }
         }
     }
 
