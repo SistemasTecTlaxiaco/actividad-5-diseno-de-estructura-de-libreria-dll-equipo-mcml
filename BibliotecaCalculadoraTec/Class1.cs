@@ -10,14 +10,14 @@ namespace BibliotecaCalculadoraTec
     public class Class1
     {
 
-            public static double sumar(double uno, double dos)
+            public static double sumar(double uno, double dos) 
             {
-                return uno + dos;
-            }
+                return uno + dos; // retorna el valor de la suma
+        }
              public static double restar(double uno, double dos)
              {
-                 return uno - dos;
-             }
+                 return uno - dos; // retorna el valor de la resta
+        }
         //metodo para multiplicar dos numeros
              public static double multiplicar(double uno, double dos)
               {
