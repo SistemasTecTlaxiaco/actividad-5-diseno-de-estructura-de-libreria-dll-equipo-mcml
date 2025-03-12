@@ -36,10 +36,11 @@ namespace CalculadoraTecFinal
                         switch (opcion) // Estructura de control para ejecutar la opción seleccionada
                         {
                             case 1: // Sumar dos números
-                                teclado1();
-                                Console.WriteLine("El resultado de la suma es: " + Class1.sumar(num1, num2));
-                                break;
-                            case 2: // Restar dos números
+                            teclado1();// Llama a la función teclado1() para capturar los valores de num1 y num2
+                            Console.WriteLine("El resultado de la suma es: " + Class1.sumar(num1, num2));// Llama al método sumar de la clase Class1, pasando los valores num1 y num2 como parámetros.
+                                                                                                         // Luego, muestra el resultado de la suma en la consola.
+                            break;// Finaliza la ejecución del caso 1.
+                        case 2: // Restar dos números
                                 teclado1();
                                 Console.WriteLine("El resultado de la Resta es: " + Class1.restar(num1, num2));
                                 break;

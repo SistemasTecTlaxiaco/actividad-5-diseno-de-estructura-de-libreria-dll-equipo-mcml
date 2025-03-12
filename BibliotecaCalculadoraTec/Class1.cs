@@ -51,7 +51,7 @@ namespace BibliotecaCalculadoraTec
             if (exponente == 0) return 1;
 
             // Si el exponente es negativo, convertimos el problema en una potencia positiva y luego invertimos el resultado
-            if (exponente < 0) return 1 / pot2encia(baseNum, -exponente);
+            if (exponente < 0) return 1 / potencia(baseNum, -exponente);
 
             // Llamada recursiva: multiplicamos la base por la potencia de baseNum con un exponente reducido en 1
             return baseNum * potencia(baseNum, exponente - 1); 
