@@ -14,24 +14,20 @@ namespace BibliotecaCalculadoraTec
             {
                 return uno + dos;
             }
-
-            public static double multiplicar(double uno, double dos)
-            {
-                return uno * dos;
-            }
-
-
-            public static double restar(double uno, double dos)
-            {
-                return uno - dos;
-            }
-
-
+             public static double restar(double uno, double dos)
+             {
+                 return uno - dos;
+             }
+        //metodo para multiplicar dos numeros
+             public static double multiplicar(double uno, double dos)
+              {
+                return uno * dos;//retorna el producto de los dos numeros
+             }
             public static double dividir(double uno, double dos)
             {
                 try
                 {
-                    if (dos == 0) // Verifica si el divisor es cero
+                    if (dos != 0) // negando que el numero dos sea igual a cero
                     {
                         throw new ArithmeticException("No se puede dividir por cero."); // Lanza una excepción
                     }

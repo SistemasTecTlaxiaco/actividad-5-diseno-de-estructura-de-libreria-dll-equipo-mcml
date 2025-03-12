@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{65671646-0D4D-4B7F-A558-7BEBE8A8E08D}</ProjectGuid>
+    <ProjectGuid>{F5E5D348-E686-49A9-9BBB-B4E0727D8E56}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CalculadoraTecAppFinal</RootNamespace>
-    <AssemblyName>CalculadoraTecAppFinal</AssemblyName>
+    <RootNamespace>CalculadoraTecFinal</RootNamespace>
+    <AssemblyName>CalculadoraTecFinal</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CalculadoraTecApp">
-      <HintPath>..\..\CalculadoraTecApp\CalculadoraTecApp\bin\Debug\CalculadoraTecApp.dll</HintPath>
+    <Reference Include="BibliotecaCalculadoraTec">
+      <HintPath>..\BibliotecaCalculadoraTec\bin\Debug\BibliotecaCalculadoraTec.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
