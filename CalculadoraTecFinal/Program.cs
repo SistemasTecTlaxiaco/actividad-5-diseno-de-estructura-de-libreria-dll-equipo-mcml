@@ -28,7 +28,8 @@ namespace CalculadoraTecFinal
                         Console.WriteLine("7. Porcentaje");
                         Console.WriteLine("8. Fraccion");
                         Console.WriteLine("9.Exponente (e^x)");
-                        Console.WriteLine("10. Salir");
+                        Console.WriteLine("10. Módulo (Residuo de la división)");
+                        Console.WriteLine("11. Salir");
                         Console.WriteLine("------------------------------------------");
                         Console.WriteLine("Elige una de las opciones");
                         int opcion = Convert.ToInt32(Console.ReadLine()); // Captura la opción elegida por el usuario
@@ -77,15 +78,19 @@ namespace CalculadoraTecFinal
                             teclado0(); // Aquí, pedimos solo un número
                             Console.WriteLine("El resultado de e^x es: " + Class1.exp(num0));
                             break;
+                        case 10:
+                            teclado1();
+                            Console.WriteLine("El resultado del módulo es: " + Class1.mod(num1, num2));
+                            break;
 
-                        case 10: // Salir de la aplicación
+                        case 11: // Salir de la aplicación
                                 Console.WriteLine("Has elegido salir de la aplicación");
                                 Environment.Exit(1);
                                 salir = true;
                                 break;
 
                             default: // Mensaje de error si la opción ingresada no es válida
-                                Console.WriteLine("Elige una opcion entre 1 y 9");
+                                Console.WriteLine("Elige una opcion entre 1 y 11");
                                 break;
                         }
                     }
