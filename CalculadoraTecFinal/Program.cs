@@ -72,16 +72,16 @@ namespace CalculadoraTecFinal
                             Console.WriteLine("El resultado de la fracción es: " + Class1.fraccion(num0));
                             // Llama al método fraccion de la clase Class1, pasando num0 como parámetro
                             // Muestra el resultado de la fracción
-                            break; // Finaliza la ejecución de este caso en el
+                            break; // Finaliza la ejecución de este caso en el switch
 
                         case 9: // Calcular el exponente e^x
                             teclado0(); // Aquí, pedimos solo un número
                             Console.WriteLine("El resultado de e^x es: " + Class1.exp(num0));
-                            break;
-                        case 10:
-                            teclado1();
-                            Console.WriteLine("El resultado del módulo es: " + Class1.mod(num1, num2));
-                            break;
+                            break; // Finaliza la ejecución de este caso en el switch
+                        case 10: // Opción para calcular el módulo (residuo de la división)
+                            teclado1();// Solicita al usuario dos números
+                            Console.WriteLine("El resultado del módulo es: " + Class1.mod(num1, num2)); // Llama al método mod y muestra el resultado
+                            break; // Finaliza la ejecución de este caso en el switch
 
                         case 11: // Salir de la aplicación
                                 Console.WriteLine("Has elegido salir de la aplicación");
