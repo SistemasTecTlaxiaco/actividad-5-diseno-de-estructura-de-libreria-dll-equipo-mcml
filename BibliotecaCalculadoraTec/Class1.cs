@@ -25,15 +25,12 @@ namespace BibliotecaCalculadoraTec
              }
         public static double dividir(double uno, double dos)
         {
-            try
+            if (dos == 0) // Verifica si el divisor es cero
             {
-                return uno / dos; // Intenta realizar la división
+                Console.WriteLine("Error: No se puede dividir por cero."); // Mensaje de error
+                return double.NaN; // Retorna NaN si la división no es posible
             }
-            catch (Exception e) // Captura cualquier tipo de excepción
-            {
-                Console.WriteLine("Error: " + e.Message); // Muestra el mensaje de error en consola
-                return double.NaN; // Retorna NaN (Not a Number) si ocurre cualquier error
-            }
+            return uno / dos; // Realiza la división si no hay error
         }
 
         public static double raizCuadrada(double num)
