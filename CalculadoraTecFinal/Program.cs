@@ -65,17 +65,25 @@ namespace CalculadoraTecFinal
                                 teclado1();
                                 Console.WriteLine("El resultado del porcentaje es: " + Class1.porcentaje(num1, num2));
                                 break;
+
                             case 8: // Caso 8 en una estructura 
                             teclado0(); // Llama a la función teclado0() para ingresar un 
                             Console.WriteLine("El resultado de la fracción es: " + Class1.fraccion(num0));
                             // Llama al método fraccion de la clase Class1, pasando num0 como parámetro
-                            // Muestra el resultado de la fracción en la 
-                            break; // Finaliza la ejecución de este caso en el 
+                            // Muestra el resultado de la fracción
+                            break; // Finaliza la ejecución de este caso en el
+
+                        case 9: // Calcular el exponente e^x
+                            teclado0(); // Aquí, pedimos solo un número
+                            Console.WriteLine("El resultado de e^x es: " + Class1.exp(num0));
+                            break;
+
                         case 10: // Salir de la aplicación
                                 Console.WriteLine("Has elegido salir de la aplicación");
                                 Environment.Exit(1);
                                 salir = true;
                                 break;
+
                             default: // Mensaje de error si la opción ingresada no es válida
                                 Console.WriteLine("Elige una opcion entre 1 y 9");
                                 break;
