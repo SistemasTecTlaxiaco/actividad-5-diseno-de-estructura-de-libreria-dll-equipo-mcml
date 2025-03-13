@@ -71,7 +71,11 @@ namespace BibliotecaCalculadoraTec
             }
                 return 1 / numero; // Si el número no es cero, retorna su fracción (1 dividido por el número)
         }
+        public static double exp(double x)
+        {
+            return Math.Exp(x); // Calcula e elevado a la potencia de x
         }
+    }
     }
 
 
