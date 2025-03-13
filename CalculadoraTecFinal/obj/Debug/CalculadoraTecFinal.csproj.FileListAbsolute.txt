@@ -1,2 +1,12 @@
 C:\Users\CICEM\source\repos\CalculadoraTecFinal\CalculadoraTecFinal\obj\Debug\CalculadoraTecFinal.csproj.AssemblyReference.cache
 C:\Users\CICEM\source\repos\CalculadoraTecFinal\CalculadoraTecFinal\obj\Debug\CalculadoraTecFinal.csproj.CoreCompileInputs.cache
+C:\Users\CICEM\source\Consola\CalculadoraTecFinal\CalculadoraTecFinal\bin\Debug\CalculadoraTecFinal.exe.config
+C:\Users\CICEM\source\Consola\CalculadoraTecFinal\CalculadoraTecFinal\bin\Debug\CalculadoraTecFinal.exe
+C:\Users\CICEM\source\Consola\CalculadoraTecFinal\CalculadoraTecFinal\bin\Debug\CalculadoraTecFinal.pdb
+C:\Users\CICEM\source\Consola\CalculadoraTecFinal\CalculadoraTecFinal\bin\Debug\BibliotecaCalculadoraTec.dll
+C:\Users\CICEM\source\Consola\CalculadoraTecFinal\CalculadoraTecFinal\bin\Debug\BibliotecaCalculadoraTec.pdb
+C:\Users\CICEM\source\Consola\CalculadoraTecFinal\CalculadoraTecFinal\obj\Debug\CalculadoraTecFinal.csproj.AssemblyReference.cache
+C:\Users\CICEM\source\Consola\CalculadoraTecFinal\CalculadoraTecFinal\obj\Debug\CalculadoraTecFinal.csproj.CoreCompileInputs.cache
+C:\Users\CICEM\source\Consola\CalculadoraTecFinal\CalculadoraTecFinal\obj\Debug\Calculad.789E8DAC.Up2Date
+C:\Users\CICEM\source\Consola\CalculadoraTecFinal\CalculadoraTecFinal\obj\Debug\CalculadoraTecFinal.exe
+C:\Users\CICEM\source\Consola\CalculadoraTecFinal\CalculadoraTecFinal\obj\Debug\CalculadoraTecFinal.pdb
