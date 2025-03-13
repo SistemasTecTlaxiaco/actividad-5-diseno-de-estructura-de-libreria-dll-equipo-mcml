@@ -27,8 +27,8 @@ namespace CalculadoraTecFinal
                         Console.WriteLine("6. Potencia");
                         Console.WriteLine("7. Porcentaje");
                         Console.WriteLine("8. Fraccion");
-                        Console.WriteLine("Exponente");
-                        Console.WriteLine("9. Salir");
+                        Console.WriteLine("9.Exponente (e^x)");
+                        Console.WriteLine("10. Salir");
                         Console.WriteLine("------------------------------------------");
                         Console.WriteLine("Elige una de las opciones");
                         int opcion = Convert.ToInt32(Console.ReadLine()); // Captura la opción elegida por el usuario
@@ -71,7 +71,7 @@ namespace CalculadoraTecFinal
                             // Llama al método fraccion de la clase Class1, pasando num0 como parámetro
                             // Muestra el resultado de la fracción en la 
                             break; // Finaliza la ejecución de este caso en el 
-                        case 9: // Salir de la aplicación
+                        case 10: // Salir de la aplicación
                                 Console.WriteLine("Has elegido salir de la aplicación");
                                 Environment.Exit(1);
                                 salir = true;
