@@ -75,7 +75,16 @@ namespace BibliotecaCalculadoraTec
         {
             return Math.Exp(x); // Calcula e elevado a la potencia de x
         }
+        public static double mod(double uno, double dos)
+        {
+            if (dos == 0) // Verifica si el divisor es cero
+            {
+                Console.WriteLine("Error: No se puede calcular el módulo con divisor cero.");
+                return double.NaN; // Retorna NaN si el divisor es cero
+            }
+            return uno % dos; // Retorna el residuo de la división
+        }
     }
-    }
+}
 
 

@@ -4,3 +4,9 @@ C:\Users\CICEM\source\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalcul
 C:\Users\CICEM\source\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.csproj.CoreCompileInputs.cache
 C:\Users\CICEM\source\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.dll
 C:\Users\CICEM\source\ProyectoLibreria\BibliotecaCalculadoraTec\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.pdb
+C:\Users\lenin\Source\Repos\actividad-5-diseno-de-estructura-de-libreria-dll-equipo-mcml\BibliotecaCalculadoraTec\bin\Debug\BibliotecaCalculadoraTec.dll
+C:\Users\lenin\Source\Repos\actividad-5-diseno-de-estructura-de-libreria-dll-equipo-mcml\BibliotecaCalculadoraTec\bin\Debug\BibliotecaCalculadoraTec.pdb
+C:\Users\lenin\Source\Repos\actividad-5-diseno-de-estructura-de-libreria-dll-equipo-mcml\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.csproj.AssemblyReference.cache
+C:\Users\lenin\Source\Repos\actividad-5-diseno-de-estructura-de-libreria-dll-equipo-mcml\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.csproj.CoreCompileInputs.cache
+C:\Users\lenin\Source\Repos\actividad-5-diseno-de-estructura-de-libreria-dll-equipo-mcml\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.dll
+C:\Users\lenin\Source\Repos\actividad-5-diseno-de-estructura-de-libreria-dll-equipo-mcml\BibliotecaCalculadoraTec\obj\Debug\BibliotecaCalculadoraTec.pdb
